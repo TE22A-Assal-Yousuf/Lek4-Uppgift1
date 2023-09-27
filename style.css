@@ -1,11 +1,32 @@
 .grid{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr ;
     gap: 10px;
 
 }
 .img{
     height: 100px;
     width: auto;
+    border: 2px solid black;
+}
+main{
+    border: 2px solid black;
+}
+article{
+    border: 2px solid black;
+    margin: 2px;
+}
+h1{
+    text-align: center;
+    border: 2px solid black;
+    margin-top:0px;
+    height:99%
+
+}
+h2{
+    text-align: center;
+}
+nav{
+    text-align: center;
 }
